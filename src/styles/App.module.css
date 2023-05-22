@@ -95,3 +95,7 @@
     margin: 1rem;
   }
 
+.mapbox {
+  display: flex;
+  justify-content: center;
+}

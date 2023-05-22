@@ -8,8 +8,8 @@ import bike2 from "@/img/Bicycle2.jpg";
 import bike3 from "@/img/Bicycle3.jpg";
 import useNetwork from '@/data/network';
 import { useRouter } from 'next/router'
-import StationImage from '@/components/StationImage'; 
-
+import LocationImage from '@/components/LocationImage'; 
+import Link from 'next/link'; 
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,6 +25,7 @@ function App() {
 
   function handleBackClick() {
     setSelectedBike(null);
+    
   }
 
   const bikes = [{name:'The Classic (electric)',img:bike1, verhaal:'The Perfect City Bike', description:'The Classic (electric): A stylish and comfortable electric bike that is perfect for cruising around town. With its classic design and powerful motor, you’ll be able to ride in style and comfort.', price:'25€/h'}
@@ -36,7 +37,8 @@ function App() {
 
 
 
-
+// ? is IF : is Else
+// ?
 
   return (
     <div className="App">
@@ -52,6 +54,13 @@ function App() {
           <BikeList bikes={bikes}  onBikeClick={handleBikeClick} />
         )}
       </main>
+      <div  className={styles.mapbox} onBackClick={handleBackClick}>
+      {selectedBike ? null : (
+      <LocationImage location={{name:'E-store', latitude:51.001311, longitude:4.487694}}/>
+      )}
+
+      </div>
+      
     </div>
   );
 }

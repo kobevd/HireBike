@@ -21,10 +21,16 @@ body {
 a {   
   text-decoration: none;
   color: white;
+  text-align: center;
+}
+
+li {
+  text-align: center;
 }
 
 ul {
   list-style: none;
+  text-align: center;
 }
 
 /* Header styles */

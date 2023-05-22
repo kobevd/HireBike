@@ -18,6 +18,7 @@ function BikeList({ bikes, onBikeClick }) {
         </li>
       ))}
     </ul>
+    
   );
 }
 

@@ -18,13 +18,13 @@ const Navigation = ({ menuOpen, toggleMenu }) => {
        <nav className={menuOpen ? "menu-open" : ""}>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/">Mechelen</a>
           </li>
           <li>
-            <a href="/Bikes.js">Bikes</a>
+            <a href="/Bikes.js">Gent</a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/about">Antwerpen</a>
           </li>
         </ul>
       </nav>
