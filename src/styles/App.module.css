@@ -1,0 +1,98 @@
+
+  
+  .menu-button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+
+  .container {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+  }
+  
+  .container2 {
+    float: left;
+  }
+  
+  .menu-open li {
+    margin: 0.5rem 0;
+    
+  }
+  
+  .menu-open a {
+    font-size: 1.2rem;
+   
+  }
+  
+  /* Main styles */
+  
+
+  
+  .bike-card {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding-top: 1rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .buttondetails {
+    color: white;
+    background-color: #2F1160;
+    padding: 0.5rem;
+    margin: 1rem 0 1rem 0;
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-radius: 80px;
+    border: none;
+    transition: all .2s ease;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .buttondetails:hover {
+    background-color: #6200FF;
+  }
+  
+  .bike-card img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .bike-details {
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .bike-details h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .bike-details p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .bike-details-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bike-map {
+    width: 50%;
+    height: 500px;
+    margin: 1rem;
+  }
+
