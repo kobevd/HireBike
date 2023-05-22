@@ -29,7 +29,7 @@ function BikeDetails({ bike, onBackClick }) {
         <div>
           <h2>{bike.name}</h2>
           <p>{bike.description}</p>
-          <p>{bike.price}</p>
+          <h4>{bike.price}</h4>
           <button className={styles.buttondetails} onClick={onBackClick}>Back to List</button>
         </div>
       </div>

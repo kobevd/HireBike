@@ -12,7 +12,6 @@ function BikeList({ bikes, onBikeClick }) {
             <div className="bike-details">
               <h2>{bike.name}</h2>
               <p>{bike.verhaal}</p>
-              <p>{bike.price}</p>
             </div>
             <button className={styles.buttondetails} onClick={() => onBikeClick(bike)}>Details</button>
           </div>
