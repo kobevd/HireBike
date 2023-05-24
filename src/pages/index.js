@@ -60,7 +60,7 @@ function App() {
       )}
 
       </div>
-      
+      <p>Fietsenwinkel Jurgen Mechelen</p>
     </div>
   );
 }

@@ -21,7 +21,7 @@ const Navigation = ({ menuOpen, toggleMenu }) => {
             <a href="/">Mechelen</a>
           </li>
           <li>
-            <a href="/Bikes.js">Gent</a>
+            <a href="/gent">Gent</a>
           </li>
           <li>
             <a href="/about">Antwerpen</a>
