@@ -1,22 +1,22 @@
 import React from "react";
 import Image from "next/image";
 import styles from "@/styles/App.module.css";
-import bike1 from '@/img/Bicycle1.jpg';
-import bike2 from '@/img/Bicycle2.jpg';
-import bike3 from '@/img/Bicycle3.jpg';
+import bike7 from "@/img/Bicycle8.jpg";
+import bike8 from "@/img/Bicycle9.jpg";
+import bike9 from "@/img/Bicycle10.jpg";
 
 function BikeDetails({ bike, onBackClick }) {
   let imageSrc = '';
 
   switch (bike.name) {
     case 'The Classic (electric)':
-      imageSrc = bike1;
+      imageSrc = bike7;
       break;
     case 'The Roadstar (electric)':
-      imageSrc = bike2;
+      imageSrc = bike8;
       break;
     case 'The Mountain (electric)':
-      imageSrc = bike3;
+      imageSrc = bike9;
       break;
     default:
       imageSrc = bike1;
