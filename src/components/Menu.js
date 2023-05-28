@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Logo from "@/img/fietslogo.png";
+import Link from 'next/link';
 const Navigation = ({ menuOpen, toggleMenu }) => {
   return (
     <header className="App-header">
@@ -18,13 +19,13 @@ const Navigation = ({ menuOpen, toggleMenu }) => {
        <nav className={menuOpen ? "menu-open" : ""}>
         <ul>
           <li>
-            <a href="/">Mechelen</a>
+            <Link href="/">Mechelen</Link>
           </li>
           <li>
-            <a href="/gent">Gent</a>
+            <Link href="/gent">Gent</Link>
           </li>
           <li>
-            <a href="/about">Antwerpen</a>
+            <Link href="/about">Antwerpen</Link>
           </li>
         </ul>
       </nav>

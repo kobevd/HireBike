@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "../styles/App.module.css";
 import Menu from "@/components/Menu";
 import BikeList from "@/components/BikeList";
-import BikeDetails from "@/components/BikeDetails";
+import BikeDetails from "@/components/BikeGent";
 import bike1 from "@/img/Bicycle1.jpg";
 import bike2 from "@/img/Bicycle2.jpg";
 import bike3 from "@/img/Bicycle3.jpg";
@@ -56,11 +56,11 @@ function App() {
       </main>
       <div  className={styles.mapbox} onBackClick={handleBackClick}>
       {selectedBike ? null : (
-      <LocationImage location={{name:'E-store', latitude:51.04551890701742, longitude:3.722128023700465}}/>
+      <LocationImage className={styles.bikeshop} location={{name:'E-store', latitude:51.04551890701742, longitude:3.722128023700465}}/>
       )}
 
       </div>
-      <p>Fietsen Roman Gent</p>
+      <h5>Fietsen Roman Gent</h5>
     </div>
   );
 }

@@ -55,9 +55,6 @@ main {
   padding: 2rem;
 }
 
-p {
-  text-align: center;
-}
 
 h2 {
   color: #6200FF;
@@ -70,5 +67,10 @@ h1 {
 h4 {
   color: #2F1160;
   margin-top: 1rem;
+}
+
+
+h5 {
+  text-align: center;
 }
 

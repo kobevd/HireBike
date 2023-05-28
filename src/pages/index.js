@@ -56,11 +56,11 @@ function App() {
       </main>
       <div  className={styles.mapbox} onBackClick={handleBackClick}>
       {selectedBike ? null : (
-      <LocationImage location={{name:'E-store', latitude:51.001311, longitude:4.487694}}/>
+      <LocationImage className={styles.bikeshop} location={{name:'E-store', latitude:51.001311, longitude:4.487694}}/>
       )}
 
       </div>
-      <p>Fietsenwinkel Jurgen Mechelen</p>
+      <h5>Fietsenwinkel Jurgen Mechelen</h5>
     </div>
   );
 }
